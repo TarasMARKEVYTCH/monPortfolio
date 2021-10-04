@@ -392,6 +392,9 @@ a:hover {
 .tech-img{
   width: 8%;
 }
+.pro{
+  border-radius: 10px;
+}
 
 /* v3 contact */
 #contact {
