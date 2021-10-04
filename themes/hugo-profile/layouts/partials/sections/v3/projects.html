@@ -1,0 +1,33 @@
+<section id="projects" class="pt-5">
+  <div class="container-fluid py-5">
+    <div class="text-dark text-center h3">Projects</div>
+    <div class="row justify-content-center pt-2">
+      {{ range .Site.Params.projects }}
+      <div class="col-md-8 pro m-3 shadow" data-aos="fade-up" data-aos-duration="1200" data-aos-once="false">
+        <div class="row">
+          <div class="col-md-6 bg-pro">
+            <img src="{{ .img }}" alt="{{ .name }}" />
+          </div>
+          <div class="col-md-6 content-pro p-3 bg-light">
+            <div class="content-pro-top">
+              <h2>{{ .name }}</h2>
+              <p class="card-text pt-2">{{ .description }}</p>
+            </div>
+            <span class="float-right">
+              {{ if .link }}
+              <a href="{{ .link }}" class="px-1" target="blank">
+                <i class="fas text-info fa-link"></i>
+              </a>
+              {{ end }} {{ if .githublink }}
+              <a href="{{ .githublink }}" target="blank" class="px-1 pr-2">
+                <i class="fab text-dark fa-lg fa-github pro-github"></i>
+              </a>
+              {{ end }}
+            </span>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>

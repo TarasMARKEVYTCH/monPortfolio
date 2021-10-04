@@ -1,0 +1,62 @@
+<div id="about" class="about-backdark about-back pt-5">
+  <section class="pt-5">
+    <div class="container-fluid">
+      <div class="text-dark text-center h3">A propos de moi</div>
+      <div class="row justify-content-center about">
+        <div class="px-2 mb-5">
+          {{ .Site.Params.descripe_l1_person | markdownify }}
+          <br />
+          <br />
+          {{ .Site.Params.descripe_l2_person | markdownify }}
+        </div>
+        
+        <div class="col-md-5 about-skill mb-5">
+          <div data-aos="zoom-in-down" data-aos-offset="50" data-aos-delay="50" data-aos-once="true"
+            data-aos-duration="1000">
+            <div class="text-secondary text-center h4">Hard skills</div>
+            {{ range .Site.Params.skills }}
+            <div>
+              <div>{{ .name }}</div>
+              <div class="progress mb-4">
+                <div class="progress-bar" role="progressbar" style="width:{{ .percentage }}%;" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+            </div>
+            {{ end }}
+          </div>
+          
+         
+        </div>
+        <div class="col-md-6 about-content">
+          <div data-aos="zoom-in-up" data-aos-offset="50" data-aos-delay="50" data-aos-once="false"
+            data-aos-duration="900">
+            <div data-aos="zoom-in-down" class="" data-aos-offset="50" data-aos-delay="50" data-aos-once="true"
+            data-aos-duration="1000">
+              <div class="text-secondary h4 mb-2">Soft skills</div>
+              {{ range .Site.Params.softskills }}
+              <ul>
+                <li>{{ .name }}</li>
+              </ul>
+              {{ end }}
+            </div>
+
+            <div class="languages mt-5">
+              <h2 div class="text-secondary h4 mb-2">Langues parlées</h2>
+              <ol>
+                {{ range .Site.Params.languages}}
+                <li>{{.name}} </li>
+                {{end}}
+              </ol>
+            </div>
+
+          </div>
+        </div>
+        <div class="tech mt-3">
+          {{ range .Site.Params.tech}}
+            <img src="{{.img}}" alt="" class="tech-img">
+          {{end}}
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

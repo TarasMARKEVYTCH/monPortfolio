@@ -1,0 +1,167 @@
+baseURL: "https://hugo-profile.netlify.app"
+languageCode: "en-us"
+title: "Porfolio Markevytch Taras"
+theme: "hugo-profile"
+relativeURLs: true
+
+googleanalytics: UA-167646412-8
+disqusShortname:
+Paginate: 3
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  tag: "tags"
+  category: "categories"
+
+enableEmoji: true
+params:
+  version: 3
+
+  favicon: "/images/fav.png"
+  description: "A high performance hugo theme for personal portfolio and blog."
+
+  # Navbar Menus
+  customMenus:
+    - name: "Blog"
+      Url: "/blog"
+
+  # home
+  disable_home: false
+  profile_image: "/images/HTP_5873.jpg"
+  name: "Taras MARKEVYTCH"
+  namecolor: 00EDF0
+  profession: "Développeur Web et Web mobile"
+  github: "https://github.com/TarasMARKEVYTCH"
+  linkedin: "https://www.linkedin.com/in/taras-markevytch-3601361b9"
+  instagram: "https://www.instagram.com/mark.tariel"
+  facebook: "https://facebook.com/taras.markevytch"
+
+  # About
+  disable_about: false
+  descripe_l1_person: "Bonjour, je m'appele Taras. D'origine ukrainienne, je suis en France depuis 2012. J'ai servi dans la Légion étrangère de 2012 à 2021. Passionné par le monde du numérique, j'ai commencé à m'auto-former au développement web et suis actuellement en formation Développeur Web/Web Mobile à l’AFPA de Marseille. 
+  Grâce à mon envie d'évoluer dans cette domaine, j’ai soif d’apprendre et je
+souhaite apporter mes compétences à votre entreprise. Actuellement je suis à la recherche d'un stage fin d'etudes.
+
+"
+  descripe_l2_person: "Je vous invite à jeter un coup d'œil à mes projets réalisés pendant mes études, que vous pouvez trouver [ici](#projects)"
+  skills:
+    - name: HTML
+      percentage: 85
+    - name: CSS
+      percentage: 85
+    - name: JavaScript
+      percentage: 50
+    - name: GIT
+      percentage: 40
+    - name: PHP
+      percentage: 30
+    - name: SQL
+      percentage: 30
+
+  softskills:
+    - name: Rigueur
+    - name: Autonomie
+    - name: Gestion du stress
+    - name: Esprit d'équipe
+    - name: Capacité d'adaptation
+
+  languages:
+    - name: Anglais
+    - name: Français
+    - name: Russe
+    - name: Ukrainien
+  
+  tech:
+    - img: /images/visual-studio-code.svg 
+    - img: /images/sass-seeklogo.com.svg 
+    - img: /images/vuejs-seeklogo.com.svg 
+    - img: /images/nodejs-seeklogo.com.svg 
+    - img: /images/bootstrap-seeklogo.com.svg 
+    - img: /images/git-seeklogo.com.svg 
+    - img: /images/figma-seeklogo.com.svg 
+    - img: /images/adobe-photoshop-seeklogo.com.svg 
+    - img: /images/adobe-indesign-seeklogo.com.svg 
+
+  # Experience
+  disable_experience: false
+  experience:
+    - company: 'LEGION-ETRANGERE-1RE'
+      # id: "Kepi Blanc"   // use this, when you want to change the id(used for navigation)
+      role: 'Photographe à "Kepi Blanc"'
+      startdate: Aout 2018
+      enddate: Juin 2021
+      featuredpoints:
+        - point: Prises de vue numérique.
+        - point: Traitement des images à l'aide des logiciels ADOBE.
+    - company: 'LEGION-ETRANGERE-2REP'
+      # id: "2REP"   // use this, when you want to change the id(used for navigation)
+      role: "Chef d'équipe au 2e régiment étranger de parachutistes"
+      startdate: May 2013
+      enddate: Aout 2018
+      featuredpoints:
+        - point: Gestion d'équipe de combat.
+        # - point: Created a frontend design for a product.
+    
+  # Education
+  disable_education: false
+  education:
+    - degree: "BAC+2"
+      branch: "Formation développeur Web et Web Mobile"
+      university: "AFPA"
+      startedyear: "2021"
+      graduation: "à present"
+    - degree: "FACQ"
+      branch: "Photographie"
+      university: "Êcole des métiers de l'image à Paris"
+      startedyear: "2019"
+      graduation: "2019"
+    - degree: "Bac +3"
+      branch: "Faculté de droit"
+      university: "Université d'État des affaires intérieures de Lviv"
+      startedyear: "2007"
+      graduation: "2010"
+
+  # Projects
+  disable_projects: false
+  projects:
+    - name: "Mini-game en JS"
+      img: /images/game.png
+      githublink: "https://github.com/TarasMARKEVYTCH/mini-game"
+      featuredlink: "/"
+      description: "Un mini jeu écrit en JavaScript, CSS et HTML"
+      link: "https://mini-game-pi.vercel.app/"
+    - name: "Slide-cards"
+      img: /images/slides.png
+      githublink: "https://github.com/TarasMARKEVYTCH/slide-cards"
+      featuredlink: "/"
+      description: "Exemple d'un \"accordéon\" réalisé en JS"
+      link: "https://slide-cards.vercel.app/"
+    - name: "Uber HTML page"
+      img: /images/uber.png
+      githublink: "https://github.com/TarasMARKEVYTCH/uber"
+      featuredlink: "/"
+      description: "Un projet créé pendant l'apprentissage du HTML, du CSS et de la résponsive."
+      link: "https://uber-rose.vercel.app/"
+    - name: "Yoga-application"
+      img: /images/yoga.png
+      githublink: "https://github.com/TarasMARKEVYTCH/yoga-application"
+      featuredlink: "/"
+      description: "Une mini application web pour l'étirement du corps. Créé pendant l'apprentissage de JavaScript."
+      link: "https://yoga-application.vercel.app/"
+
+  # Contact
+  disable_contact: false
+  contact_content: Ma boîte de réception est toujours ouverte. Que vous ayez une question ou que vous souhaitiez simplement me saluer, je ferai de mon mieux pour vous répondre !
+  email: "taras.markevytch@gmail.com"
+  tel: '+33637753064'
+
+  # Footer
+  socialiconfooter: true
+  recentposts: true
+
+  # # Blog
+  # showdescription: false
+  # tweet: true
