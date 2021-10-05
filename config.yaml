@@ -41,12 +41,12 @@ params:
 
   # About
   disable_about: false
-  descripe_l1_person: "Bonjour, je m'appele Taras. D'origine ukrainienne, je suis en France depuis 2012. J'ai servi dans la Légion étrangère de 2012 à 2021. Passionné par le monde du numérique, j'ai commencé à m'auto-former au développement web et suis actuellement en formation Développeur Web/Web Mobile à l’AFPA de Marseille. 
+  descripe_l1_person: "Bonjour, je m'appele Taras. D'origine ukrainienne, je suis en France depuis 2012. J'ai servi à la Légion étrangère de 2012 à 2021. Passionné par le monde du numérique, j'ai commencé à m'auto-former au développement web et suis actuellement en formation Développeur Web/Web Mobile à l’AFPA de Marseille. 
   Grâce à mon envie d'évoluer dans cette domaine, j’ai soif d’apprendre et je
-souhaite apporter mes compétences à votre entreprise. Actuellement je suis à la recherche d'un stage fin d'etudes.
+souhaite apporter mes compétences à votre entreprise. Actuellement je suis à la recherche d'un stage de fin d'etudes.
 
 "
-  descripe_l2_person: "Je vous invite à jeter un coup d'œil à mes projets réalisés pendant mes études, que vous pouvez trouver [ici](#projects)"
+  descripe_l2_person: "Je vous invite à jeter un coup d'œil aux projets que j'ai réalisés pendant mes études, que vous pouvez trouver [ici](#projects)."
   skills:
     - name: HTML
       percentage: 85
