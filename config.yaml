@@ -1,4 +1,4 @@
-baseURL: "https://tarasmarkevytch.github.io/monPortfolio/"
+baseURL: "/"
 languageCode: "en-us"
 title: "Porfolio Markevytch Taras"
 theme: "hugo-profile"
