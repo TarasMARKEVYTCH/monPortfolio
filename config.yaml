@@ -1,4 +1,4 @@
-baseURL: "/"
+baseURL: "https://tarasmarkevytch.github.io/monPortfolio/"
 languageCode: "en-us"
 title: "Porfolio Markevytch Taras"
 theme: "hugo-profile"
@@ -94,7 +94,7 @@ souhaite apporter mes compétences à votre entreprise. Actuellement je suis à 
       startdate: Aout 2018
       enddate: Juin 2021
       featuredpoints:
-        - point: Prises de vue numérique.
+        - point: Prise de vues numériques.
         - point: Traitement des images à l'aide des logiciels ADOBE.
     - company: 'LEGION-ETRANGERE-2REP'
       # id: "2REP"   // use this, when you want to change the id(used for navigation)
