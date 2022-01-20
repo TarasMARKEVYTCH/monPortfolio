@@ -41,25 +41,31 @@ params:
 
   # About
   disable_about: false
-  descripe_l1_person: "Bonjour, je m'appele Taras. D'origine ukrainienne, je suis en France depuis 2012. J'ai servi à la Légion étrangère de 2012 à 2021. Passionné par le monde du numérique, j'ai commencé à m'auto-former au développement web et suis actuellement en formation Développeur Web/Web Mobile à l’AFPA de Marseille. 
-  Grâce à mon envie d'évoluer dans ce domaine, j’ai soif d’apprendre et je
-souhaite apporter mes compétences à votre entreprise. Actuellement je suis à la recherche d'un stage de fin d'etudes.
-
-"
+  descripe_l1_person: "Bonjour, je m'appele Taras. D'origine ukrainienne, je suis en France depuis 2012. J'ai servi à la Légion étrangère de 2012 à 2021. Passionné par le monde du numérique, j’ai commencé à m’auto-former au développement web et suis actuellement en fin de formation Développeur Web/Web Mobile à l’AFPA de Marseille. Grâce à mon envie d’évoluer dans ce domaine, j’ai soif d’apprendre et je souhaite apporter mes compétences à votre entreprise. Actuellement je suis à la recherche d’un post développeur Web Junior."
   descripe_l2_person: "Je vous invite à jeter un coup d'œil aux projets que j'ai réalisés pendant mes études, que vous pouvez trouver [ici](#projects)."
   skills:
     - name: HTML
-      percentage: 85
+      percentage: 90
     - name: CSS
-      percentage: 85
-    - name: JavaScript
-      percentage: 50
+      percentage: 90
+    - name: Bootstrap 5
+      percentage: 90
+    - name: JavaScript ES6
+      percentage: 60
+    - name: TypeScript
+      percentage: 45
     - name: GIT
-      percentage: 40
+      percentage: 55
     - name: PHP
-      percentage: 30
+      percentage: 45
     - name: SQL
+      percentage: 60
+    - name: VueJs 3
       percentage: 30
+    - name: Angular
+      percentage: 40
+    - name: Symfony 4
+      percentage: 20
 
   softskills:
     - name: Rigueur
@@ -73,10 +79,17 @@ souhaite apporter mes compétences à votre entreprise. Actuellement je suis à 
     - name: Français
     - name: Russe
     - name: Ukrainien
+
+  PersonalInfo:
+    - name: Nationalité
+              - française
+    - name: Permis
+              - categories B et C
   
   tech:
     - img: /images/visual-studio-code.svg 
     - img: /images/sass-seeklogo.com.svg 
+    - img: /images/angular-icon.svg 
     - img: /images/vuejs-seeklogo.com.svg 
     - img: /images/nodejs-seeklogo.com.svg 
     - img: /images/bootstrap-seeklogo.com.svg 
@@ -88,6 +101,14 @@ souhaite apporter mes compétences à votre entreprise. Actuellement je suis à 
   # Experience
   disable_experience: false
   experience:
+    - company: 'MEDAE'
+      # id: "Kepi Blanc"   // use this, when you want to change the id(used for navigation)
+      role: 'Stagiaire développeur Web Junior'
+      startdate: Novembre 2021
+      enddate: Février 2022
+      featuredpoints:
+        - point: Création des pages du site vitrine;
+        - point: Maintenance coté serveur du site "Medae.co";
     - company: 'LEGION-ETRANGERE-1RE'
       # id: "Kepi Blanc"   // use this, when you want to change the id(used for navigation)
       role: 'Photographe à "Kepi Blanc"'
@@ -151,6 +172,12 @@ souhaite apporter mes compétences à votre entreprise. Actuellement je suis à 
       featuredlink: "/"
       description: "Une mini application web pour l'étirement du corps. Créé pendant l'apprentissage de JavaScript."
       link: "https://yoga-application.vercel.app/"
+    - name: "Site d'automobiles"
+      img: /images/lexus_suv.png
+      githublink: "https://github.com/TarasMARKEVYTCH/cars"
+      featuredlink: "/"
+      description: "Un site de réservation d'automobiles crée en php native et POO. En cours de développement..."
+      link: "https://marktariel.000webhostapp.com/"
 
   # Contact
   disable_contact: false

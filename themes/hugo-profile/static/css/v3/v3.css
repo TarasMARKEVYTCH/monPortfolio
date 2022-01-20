@@ -54,6 +54,11 @@ a:hover {
 }
 .tech-img{
   width: 8%;
+  transition: 0.2s ease-in-out;
+}
+.tech-img:hover{
+  transform: scale(1.3);
+  box-shadow: 0 0 7px 5px #fff;
 }
 .btn-know {
   padding: 2% 5% 2% 5%;

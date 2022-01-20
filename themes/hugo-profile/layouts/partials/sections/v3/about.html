@@ -15,7 +15,7 @@
             data-aos-duration="1000">
             <div class="text-secondary text-center h4">Hard skills</div>
             {{ range .Site.Params.skills }}
-            <div>
+            <div data-aos="fade-right" data-aos-offset="150" data-aos-duration="1000">
               <div>{{ .name }}</div>
               <div class="progress mb-4">
                 <div class="progress-bar" role="progressbar" style="width:{{ .percentage }}%;" aria-valuemin="0"
@@ -28,10 +28,9 @@
          
         </div>
         <div class="col-md-6 about-content">
-          <div data-aos="zoom-in-up" data-aos-offset="50" data-aos-delay="50" data-aos-once="false"
+          <div>
+            <div data-aos="fade-left" data-aos-offset="50" data-aos-delay="50" data-aos-once="false"
             data-aos-duration="900">
-            <div data-aos="zoom-in-down" class="" data-aos-offset="50" data-aos-delay="50" data-aos-once="true"
-            data-aos-duration="1000">
               <div class="text-secondary h4 mb-2">Soft skills</div>
               {{ range .Site.Params.softskills }}
               <ul>
@@ -40,13 +39,23 @@
               {{ end }}
             </div>
 
-            <div class="languages mt-5">
+            <div class="languages mt-5" data-aos="fade-left" data-aos-offset="50" data-aos-delay="50" data-aos-once="false"
+            data-aos-duration="900">
               <h2 div class="text-secondary h4 mb-2">Langues parlées</h2>
               <ol>
                 {{ range .Site.Params.languages}}
                 <li>{{.name}} </li>
                 {{end}}
               </ol>
+            </div>
+            <div class="personal-info mt-5" data-aos="fade-left" data-aos-offset="50" data-aos-delay="50" data-aos-once="false"
+            data-aos-duration="900">
+              <h2 div class="text-secondary h4 mb-2">Information:</h2>
+              <ul>
+                {{ range .Site.Params.PersonalInfo}}
+                <li>{{.name}} </li>
+                {{end}}
+              </ul>
             </div>
 
           </div>

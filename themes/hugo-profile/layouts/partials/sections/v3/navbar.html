@@ -1,4 +1,4 @@
-<div class="container-fluid header">
+<div class="container-fluid header" id="header">
   <nav class="pt-3 navbar navbar-expand-lg navbar-light" data-aos="fade-down" data-aos-easing="linear"
     data-aos-duration="1500">
     <a class="navbar-brand" href="{{ .Site.BaseURL | relURL }}">
@@ -22,14 +22,14 @@
         {{ if .Site.Params.disable_about }}
         {{ else }}
         <li class="nav-item navbar-text">
-          <a class="nav-link text-dark" href="{{ .Site.BaseURL | relURL }}#about" aria-label="about">A propos de moi</a>
+          <a class="nav-link text-dark btn-outline-dark" href="{{ .Site.BaseURL | relURL }}#about" aria-label="about">A propos de moi</a>
         </li>
         {{ end }}
 
         {{ if .Site.Params.disable_experience }}
         {{ else }}
         <li class="nav-item navbar-text">
-          <a class="nav-link text-dark" href="{{ .Site.BaseURL | relURL }}#experience"
+          <a class="nav-link text-dark btn-outline-dark" href="{{ .Site.BaseURL | relURL }}#experience"
             aria-label="experience">Expérience</a>
         </li>
         {{ end }}
@@ -37,7 +37,7 @@
         {{ if .Site.Params.disable_education }}
         {{ else }}
         <li class="nav-item navbar-text">
-          <a class="nav-link text-dark" href="{{ .Site.BaseURL | relURL }}#education"
+          <a class="nav-link text-dark btn-outline-dark" href="{{ .Site.BaseURL | relURL }}#education"
             aria-label="education">Education</a>
         </li>
         {{ end }}
@@ -45,14 +45,14 @@
         {{ if .Site.Params.disable_projects }}
         {{ else }}
         <li class="nav-item navbar-text">
-          <a class="nav-link text-dark" href="{{ .Site.BaseURL | relURL }}#projects" aria-label="projects">Projets</a>
+          <a class="nav-link text-dark btn-outline-dark" href="{{ .Site.BaseURL | relURL }}#projects" aria-label="projects">Projets</a>
         </li>
         {{ end }}
 
         {{ if .Site.Params.disable_contact }}
         {{ else }}
         <li class="nav-item navbar-text">
-          <a class="nav-link text-dark" href="{{ .Site.BaseURL | relURL }}#contact" aria-label="contact">Contact</a>
+          <a class="nav-link text-dark btn-outline-dark" href="{{ .Site.BaseURL | relURL }}#contact" aria-label="contact">Contact</a>
         </li>
         {{ end }}
 
