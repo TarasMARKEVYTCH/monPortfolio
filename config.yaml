@@ -33,7 +33,7 @@ params:
   profile_image: "/images/HTP_5873.jpg"
   name: "Taras MARKEVYTCH"
   namecolor: 00EDF0
-  profession: "Développeur Web et Web mobile"
+  profession: "Développeur Web Front-End"
   github: "https://github.com/TarasMARKEVYTCH"
   linkedin: "https://www.linkedin.com/in/taras-markevytch-3601361b9"
   instagram: "https://www.instagram.com/mark.tariel"
@@ -41,7 +41,7 @@ params:
 
   # About
   disable_about: false
-  descripe_l1_person: "Bonjour, je m'appele Taras. D'origine ukrainienne, je suis en France depuis 2012. J'ai servi à la Légion étrangère de 2012 à 2021. Passionné par le monde du numérique, j’ai commencé à m’auto-former au développement web et suis actuellement en fin de formation Développeur Web/Web Mobile à l’AFPA de Marseille. Grâce à mon envie d’évoluer dans ce domaine, j’ai soif d’apprendre et je souhaite apporter mes compétences à votre entreprise. Actuellement je suis à la recherche d’un post développeur Web Junior."
+  descripe_l1_person: "Bonjour, je m'appele Taras. D'origine ukrainienne, je suis en France depuis 2012. J'ai servi à la Légion étrangère de 2012 à 2021. Développeur front-end avec 2 ans d’expérience, passionné par le monde du numérique, j’ai commencé à coder et m’auto-former au développement web sur les plateformes OpenClassRoom, FreeCode- Camp, Udemy, suivi d’une formation Développeur Web à l’AFPA où j’ai obtenu mon diplome BAC+2 en développement web. Polyvalent, je maîtrise les différentes étapes techniques de la création d’une application web. J’ai soif d’apprendre et je souhaite apporter mes compétences à votre entreprise."
   descripe_l2_person: "Je vous invite à jeter un coup d'œil aux projets que j'ai réalisés pendant mes études, que vous pouvez trouver [ici](#projects)."
   skills:
     - name: HTML
@@ -50,20 +50,26 @@ params:
       percentage: 90
     - name: Bootstrap 5
       percentage: 90
+    - name: TailWindCss 5
+      percentage: 90
     - name: JavaScript ES6
-      percentage: 60
+      percentage: 80
     - name: TypeScript
-      percentage: 45
+      percentage: 70
+    - name: AngularJs
+      percentage: 40
+    - name: NodeJs
+      percentage: 40
     - name: GIT
       percentage: 55
     - name: PHP
       percentage: 45
     - name: SQL
-      percentage: 60
+      percentage: 30
     - name: VueJs 3
       percentage: 30
     - name: Angular
-      percentage: 40
+      percentage: 70
     - name: Symfony 4
       percentage: 20
 
@@ -101,6 +107,16 @@ params:
   # Experience
   disable_experience: false
   experience:
+    - company: 'ARGO'
+      # id: "Kepi Blanc"   // use this, when you want to change the id(used for navigation)
+      role: 'Développeur web front-end'
+      startdate: AVRIL 2022
+      enddate: Présent
+      featuredpoints:
+        - point: Maintenance et développement des modules pour CRM/LIBRARY/EDITEUR/VIEWER;
+        - point: Correction des bugs;
+        - point: Intégration continue;
+        - point: Écriture de tests unitaires;
     - company: 'MEDAE'
       # id: "Kepi Blanc"   // use this, when you want to change the id(used for navigation)
       role: 'Stagiaire développeur Web Junior'
@@ -148,12 +164,24 @@ params:
   # Projects
   disable_projects: false
   projects:
+    - name: "Cadeu NOËL"
+      img: /images/NOEL.png
+      githublink: "https://github.com/TarasMARKEVYTCH/cars"
+      featuredlink: "/"
+      description: "Un jou de tirage au sort des cadeaux pour NOEL entre les amis."
+      link: "https://marktariel.000webhostapp.com/"
     - name: "Mini-game en JS"
       img: /images/game.png
       githublink: "https://github.com/TarasMARKEVYTCH/mini-game"
       featuredlink: "/"
       description: "Un mini jeu écrit en JavaScript, CSS et HTML"
       link: "https://mini-game-pi.vercel.app/"
+    - name: "Yoga-application"
+      img: /images/yoga.png
+      githublink: "https://github.com/TarasMARKEVYTCH/yoga-application"
+      featuredlink: "/"
+      description: "Une mini application web pour l'étirement du corps. Créé pendant l'apprentissage de JavaScript."
+      link: "https://yoga-application.vercel.app/"
     - name: "Slide-cards"
       img: /images/slides.png
       githublink: "https://github.com/TarasMARKEVYTCH/slide-cards"
@@ -166,18 +194,7 @@ params:
       featuredlink: "/"
       description: "Un projet créé pendant l'apprentissage du HTML, du CSS et de la résponsive."
       link: "https://uber-rose.vercel.app/"
-    - name: "Yoga-application"
-      img: /images/yoga.png
-      githublink: "https://github.com/TarasMARKEVYTCH/yoga-application"
-      featuredlink: "/"
-      description: "Une mini application web pour l'étirement du corps. Créé pendant l'apprentissage de JavaScript."
-      link: "https://yoga-application.vercel.app/"
-    - name: "Site d'automobiles"
-      img: /images/lexus_suv.png
-      githublink: "https://github.com/TarasMARKEVYTCH/cars"
-      featuredlink: "/"
-      description: "Un site de réservation d'automobiles crée en php native et POO. En cours de développement..."
-      link: "https://marktariel.000webhostapp.com/"
+    
 
   # Contact
   disable_contact: false
