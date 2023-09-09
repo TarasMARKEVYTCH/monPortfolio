@@ -42,17 +42,51 @@ params:
 
   # About
   disable_about: false
-  descripe_l1_person: "Hi, I'm Profile, a passionate web developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
+  descripe_l1_person: "Hello, my name is Taras. Of Ukrainian origin, I have been in France since 2012. I served in the French Foreign Legion from 2012 to 2021. Front-end developer with 2 years' experience, passionate about the digital world, I started coding and self-training in web development on the OpenClassRoom, FreeCode- Camp, Udemy platforms, followed by a Web Developer training course at AFPA where I obtained my BAC+2 diploma in web development. Versatile, I master the various technical stages involved in creating a web application. I'm eager to learn and want to contribute my skills to your company."
   descripe_l2_person: "This is a example template for about section. You can find my works [here](#projects)"
   skills:
+    - name: HTML
+      percentage: 90
     - name: CSS
       percentage: 90
-    - name: Django
-      percentage: 85
-    - name: Hugo
+    - name: Bootstrap 5
+      percentage: 90
+    - name: TailWindCss
+      percentage: 90
+    - name: JavaScript ES6
       percentage: 80
-    - name: React JS
+    - name: TypeScript
       percentage: 70
+    - name: AngularJs
+      percentage: 40
+    - name: NodeJs
+      percentage: 40
+    - name: GIT
+      percentage: 55
+    - name: PHP
+      percentage: 45
+    - name: SQL
+      percentage: 30
+    - name: VueJs 3
+      percentage: 30
+    - name: Angular
+      percentage: 70
+    - name: Symfony 4
+      percentage: 20
+
+  softskills:
+    - name: Rigueur
+    - name: Autonomie
+    - name: Gestion du stress
+    - name: Esprit d'équipe
+    - name: Capacité d'adaptation
+
+  languages:
+    - name: Anglais
+    - name: Français
+    - name: Russe
+    - name: Ukrainien
+
 
   # Experience
   disable_experience: false

@@ -50,7 +50,7 @@ params:
       percentage: 90
     - name: Bootstrap 5
       percentage: 90
-    - name: TailWindCss 5
+    - name: TailWindCss
       percentage: 90
     - name: JavaScript ES6
       percentage: 80
