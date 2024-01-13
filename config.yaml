@@ -41,37 +41,34 @@ params:
 
   # About
   disable_about: false
-  descripe_l1_person: "Bonjour, je m'appele Taras. D'origine ukrainienne, je suis en France depuis 2012. J'ai servi à la Légion étrangère de 2012 à 2021. Développeur front-end avec 2 ans d’expérience, passionné par le monde du numérique, j’ai commencé à coder et m’auto-former au développement web sur les plateformes OpenClassRoom, FreeCode- Camp, Udemy, suivi d’une formation Développeur Web à l’AFPA où j’ai obtenu mon diplome BAC+2 en développement web. Polyvalent, je maîtrise les différentes étapes techniques de la création d’une application web. J’ai soif d’apprendre et je souhaite apporter mes compétences à votre entreprise."
+  descripe_l1_person: "Bonjour, je m'appele Taras. D'origine ukrainienne, je suis en France depuis 2012. J'ai servi à la Légion étrangère de 2012 à 2021. Développeur front-end avec 2 ans d’expérience, passionné par le monde du numérique, j’ai commencé à coder et m’auto-former au développement web sur les plateformes tels que OpenClassRoom, FreeCode- Camp, Udemy, suivi d’une formation Développeur Web à l’AFPA où j’ai obtenu mon diplome BAC+2 en développement web. Polyvalent, je maîtrise les différentes étapes techniques de la création d’une application web. J’ai soif d’apprendre et je souhaite apporter mes compétences à votre entreprise."
   descripe_l2_person: "Je vous invite à jeter un coup d'œil aux projets que j'ai réalisés pendant mes études, que vous pouvez trouver [ici](#projects)."
   skills:
-    - name: HTML
+    - name: HTML/JavaScript
       percentage: 90
-    - name: CSS
+    - name: CSS/SCSS/SASS
       percentage: 90
-    - name: Bootstrap 5
+    - name: TailWindCss/Bootstrap 5
       percentage: 90
-    - name: TailWindCss
-      percentage: 90
-    - name: JavaScript ES6
-      percentage: 80
     - name: TypeScript
       percentage: 70
-    - name: AngularJs
-      percentage: 40
+    - name: PHP
+      percentage: 35
     - name: NodeJs
       percentage: 40
-    - name: GIT
-      percentage: 55
-    - name: PHP
-      percentage: 45
-    - name: SQL
-      percentage: 30
-    - name: VueJs 3
+    - name: THREE.js
       percentage: 30
     - name: Angular
       percentage: 70
-    - name: Symfony 4
-      percentage: 20
+    - name: VueJs 3
+      percentage: 30
+
+  otherSkills:
+    - name: Go
+    - name: GIT
+    - name: SQL
+    - name: ExpressJs
+    - name: AngularJs
 
   softskills:
     - name: Rigueur
@@ -88,60 +85,52 @@ params:
 
   PersonalInfo:
     - name: Nationalité
-              - française
+        - française
     - name: Permis
-              - categories B et C
-  
+        - categories B et C
+
   tech:
-    - img: /images/visual-studio-code.svg 
-    - img: /images/sass-seeklogo.com.svg 
-    - img: /images/angular-icon.svg 
-    - img: /images/vuejs-seeklogo.com.svg 
-    - img: /images/nodejs-seeklogo.com.svg 
-    - img: /images/bootstrap-seeklogo.com.svg 
-    - img: /images/git-seeklogo.com.svg 
-    - img: /images/figma-seeklogo.com.svg 
-    - img: /images/adobe-photoshop-seeklogo.com.svg 
-    - img: /images/adobe-indesign-seeklogo.com.svg 
+    - img: /images/visual-studio-code.svg
+    - img: /images/sass-seeklogo.com.svg
+    - img: /images/angular-icon.svg
+    - img: /images/vuejs-seeklogo.com.svg
+    - img: /images/nodejs-seeklogo.com.svg
+    - img: /images/bootstrap-seeklogo.com.svg
+    - img: /images/git-seeklogo.com.svg
+    - img: /images/figma-seeklogo.com.svg
+    - img: /images/adobe-photoshop-seeklogo.com.svg
+    - img: /images/adobe-indesign-seeklogo.com.svg
 
   # Experience
   disable_experience: false
   experience:
-    - company: 'ARGO'
+    - company: "ARGO"
       # id: "Kepi Blanc"   // use this, when you want to change the id(used for navigation)
-      role: 'Développeur web front-end'
+      role: "Développeur web front-end"
       startdate: AVRIL 2022
       enddate: Présent
       featuredpoints:
-        - point: Maintenance et développement des modules pour CRM/LIBRARY/EDITEUR/VIEWER;
+        - point: Maintenance et développement des modules pour CRM/LIBRARY/EDITEUR/VIEWER avec framework Angular et AngularJs;
+        - point: Développement d'outils d'interaction avec la réalité augmentée et les objets 3D;
         - point: Correction des bugs;
         - point: Intégration continue;
-        - point: Écriture de tests unitaires;
-    - company: 'MEDAE'
+        - point: Élaboration de tests unitaires;
+    - company: "MEDAE"
       # id: "Kepi Blanc"   // use this, when you want to change the id(used for navigation)
-      role: 'Stagiaire développeur Web Junior'
+      role: "Stagiaire développeur Web Junior"
       startdate: Novembre 2021
       enddate: Février 2022
       featuredpoints:
         - point: Création des pages du site vitrine;
         - point: Maintenance coté serveur du site "Medae.co";
-    - company: 'LEGION-ETRANGERE-1RE'
+    - company: "LEGION-ETRANGERE-1RE"
       # id: "Kepi Blanc"   // use this, when you want to change the id(used for navigation)
       role: 'Photographe à "Kepi Blanc"'
-      startdate: Aout 2018
+      startdate: Novembre 2012
       enddate: Juin 2021
       featuredpoints:
         - point: Prise de vues numériques.
         - point: Traitement des images à l'aide des logiciels ADOBE.
-    - company: 'LEGION-ETRANGERE-2REP'
-      # id: "2REP"   // use this, when you want to change the id(used for navigation)
-      role: "Chef d'équipe au 2e régiment étranger de parachutistes"
-      startdate: May 2013
-      enddate: Aout 2018
-      featuredpoints:
-        - point: Gestion d'équipe de combat.
-        # - point: Created a frontend design for a product.
-    
   # Education
   disable_education: false
   education:
@@ -164,12 +153,18 @@ params:
   # Projects
   disable_projects: false
   projects:
+    - name: "Shaders"
+      img: /images/three-js-icon.svg
+      githublink: "https://github.com/TarasMARKEVYTCH/shaders-project"
+      featuredlink: "/"
+      description: "Un projet de création de shaders personnalisés."
+      link: "https://shaders-project-iota.vercel.app/shaders"
     - name: "Cadeu NOËL"
       img: /images/NOEL.png
       githublink: "https://github.com/TarasMARKEVYTCH/cars"
       featuredlink: "/"
       description: "Un jou de tirage au sort des cadeaux pour NOEL entre les amis."
-      link: "https://marktariel.000webhostapp.com/"
+      link: "#"
     - name: "Mini-game en JS"
       img: /images/game.png
       githublink: "https://github.com/TarasMARKEVYTCH/mini-game"
@@ -186,7 +181,7 @@ params:
       img: /images/slides.png
       githublink: "https://github.com/TarasMARKEVYTCH/slide-cards"
       featuredlink: "/"
-      description: "Exemple d'un \"accordéon\" réalisé en JS"
+      description: 'Exemple d''un "accordéon" réalisé en JS'
       link: "https://slide-cards.vercel.app/"
     - name: "Uber HTML page"
       img: /images/uber.png
@@ -194,13 +189,12 @@ params:
       featuredlink: "/"
       description: "Un projet créé pendant l'apprentissage du HTML, du CSS et de la résponsive."
       link: "https://uber-rose.vercel.app/"
-    
 
   # Contact
   disable_contact: false
   contact_content: Ma boîte de réception est toujours ouverte. Que vous ayez une question ou que vous souhaitiez simplement me saluer, je ferai de mon mieux pour vous répondre !
-  email: "taras.markevytch@gmail.com"
-  tel: '+33637753064'
+  email: "markevych09@gmail.com"
+  tel: "+33637753064"
 
   # Footer
   socialiconfooter: true

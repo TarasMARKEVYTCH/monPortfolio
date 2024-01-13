@@ -9,7 +9,7 @@
           <br />
           {{ .Site.Params.descripe_l2_person | markdownify }}
         </div>
-        
+
         <div class="col-md-5 about-skill mb-5">
           <div data-aos="zoom-in-down" data-aos-offset="50" data-aos-delay="50" data-aos-once="true"
             data-aos-duration="1000">
@@ -24,13 +24,22 @@
             </div>
             {{ end }}
           </div>
-          
-         
+
+
         </div>
         <div class="col-md-6 about-content">
           <div>
             <div data-aos="fade-left" data-aos-offset="50" data-aos-delay="50" data-aos-once="false"
-            data-aos-duration="900">
+              data-aos-duration="900">
+              <div class="text-secondary h4 mb-2">En plus</div>
+              {{ range .Site.Params.otherSkills }}
+              <ul>
+                <li>{{ .name }}</li>
+              </ul>
+              {{ end }}
+            </div>
+            <div data-aos="fade-left" data-aos-offset="50" data-aos-delay="50" data-aos-once="false"
+              data-aos-duration="900">
               <div class="text-secondary h4 mb-2">Soft skills</div>
               {{ range .Site.Params.softskills }}
               <ul>
@@ -39,8 +48,8 @@
               {{ end }}
             </div>
 
-            <div class="languages mt-5" data-aos="fade-left" data-aos-offset="50" data-aos-delay="50" data-aos-once="false"
-            data-aos-duration="900">
+            <div class="languages mt-5" data-aos="fade-left" data-aos-offset="50" data-aos-delay="50"
+              data-aos-once="false" data-aos-duration="900">
               <h2 div class="text-secondary h4 mb-2">Langues parlées</h2>
               <ol>
                 {{ range .Site.Params.languages}}
@@ -48,8 +57,8 @@
                 {{end}}
               </ol>
             </div>
-            <div class="personal-info mt-5" data-aos="fade-left" data-aos-offset="50" data-aos-delay="50" data-aos-once="false"
-            data-aos-duration="900">
+            <div class="personal-info mt-5" data-aos="fade-left" data-aos-offset="50" data-aos-delay="50"
+              data-aos-once="false" data-aos-duration="900">
               <h2 div class="text-secondary h4 mb-2">Information:</h2>
               <ul>
                 {{ range .Site.Params.PersonalInfo}}
@@ -62,7 +71,7 @@
         </div>
         <div class="tech mt-3">
           {{ range .Site.Params.tech}}
-            <img src="{{.img}}" alt="" class="tech-img">
+          <img src="{{.img}}" alt="" class="tech-img">
           {{end}}
         </div>
       </div>
